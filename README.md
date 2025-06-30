@@ -6,3 +6,11 @@ To be submitted for credit, all changes must be committed and pushed to this rep
 ## Rubric
 
 Each question is worth one point.
+
+
+-- get the starter repo into your GitHub account.
+-- clone down your repo to your local machine,start up Jupyter lab (or Jupyter Notebook)
+-- make edits to Markdown cells and Python code cells
+-- add and commit your changes using Git
+-- push your commit up to the GitHub repo
+-- export your notebook as HTML (a web page) for submission using the menu
