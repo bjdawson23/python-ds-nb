@@ -20,25 +20,26 @@ Task 2. Open Notebook and Complete Tasks
 -- Exported notebook as HTML (a web page) for submission using the menu
 ~~~
 
-Task 3. Export to HTML and Finalize Repo
+Task 3. **Export to HTML and Finalize Repo**
 
-~~~
+**Use the Jupyter Notebook or JupyterLab interface menu:**  
+&nbsp;&nbsp;&nbsp;&nbsp;Try: **File -> Save and Export As... -> HTML**
 
-Use the Jupyter Notebook or JupyterLab interface menu:
-    Try: File -> Save and Export As... -> HTML 
+**Add a Python cell at the end of your notebook, enter the following Python command (change the file name as needed), and run the cell:**  
+&nbsp;&nbsp;&nbsp;&nbsp;`!jupyter nbconvert --to html python-ds.ipynb`
 
-Add a Python cell at the end of your notebook, enter the following Python command (change the file name as needed), and run the cell:
-    !jupyter nbconvert --to html python-ds.ipynb
+**Export Using os Package (in a Python Cell)**  
+Use the following code in a Python cell and run the cell:  
+&nbsp;&nbsp;&nbsp;&nbsp;```python  
+&nbsp;&nbsp;&nbsp;&nbsp;import os  
+&nbsp;&nbsp;&nbsp;&nbsp;os.system('jupyter nbconvert --to html python-ds.ipynb')  
+&nbsp;&nbsp;&nbsp;&nbsp;```
 
-Export Using os Package (in a Python Cell)
-**Use the following code in a Python cell and run the cell:
-**    import os
-**    os.system('jupyter nbconvert --to html python-ds.ipynb').
+**Export Using a Terminal Command**  
+Open a terminal in the project repository root folder and run:  
+&nbsp;&nbsp;&nbsp;&nbsp;`jupyter nbconvert --to html python-ds.ipynb`
 
-Export Using a Terminal Command 
-Open a terminal in the project repository root folder and run:
-    jupyter nbconvert --to html python-ds.ipynb
-~~~
+---
 
--- Had some issues creating the HTML file and fixed by upgrading jupyter
-    pip install --upgrade jupyter
+**Had some issues creating the HTML file and fixed by upgrading jupyter:**  
+&nbsp;&nbsp;&nbsp;&nbsp;`pip install --upgrade jupyter`
