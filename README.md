@@ -22,7 +22,7 @@ Task 2. Open Notebook and Complete Tasks
 
 Task 3. Export to HTML and Finalize Repo
 
-~~~text
+~~~
 
 Use the Jupyter Notebook or JupyterLab interface menu:
     Try: File -> Save and Export As... -> HTML 
