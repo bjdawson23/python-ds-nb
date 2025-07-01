@@ -31,9 +31,9 @@ Add a Python cell at the end of your notebook, enter the following Python comman
     !jupyter nbconvert --to html python-ds.ipynb
 
 Export Using os Package (in a Python Cell)
-Use the following code in a Python cell and run the cell:
-    import os
-    os.system('jupyter nbconvert --to html python-ds.ipynb').
+**Use the following code in a Python cell and run the cell:
+**    import os
+**    os.system('jupyter nbconvert --to html python-ds.ipynb').
 
 Export Using a Terminal Command 
 Open a terminal in the project repository root folder and run:
