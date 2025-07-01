@@ -9,9 +9,9 @@ Each question is worth one point.
 
 ---
 
-**Task 1. Get Started by copying the base repository into your GitHub account**
+### Task 1. Get Started by copying the base repository into your GitHub account
 
-**Task 2. Open Notebook and Complete Tasks**
+## Task 2. Open Notebook and Complete Tasks
 
 - Copy the starter repo into your GitHub account.
 - Clone your repo to your local machine and start up Jupyter Lab (or Jupyter Notebook).
@@ -22,13 +22,14 @@ Each question is worth one point.
 
 ---
 
-**Task 3. Export to HTML and Finalize Repo**
+### Task 3. Export to HTML and Finalize Repo
 
 **Option 1: Export using the Jupyter menu**  
 Go to: **File → Save and Export As... → HTML**
 
 **Option 2: Export using a Python cell**  
 Add a Python cell at the end of your notebook and run:
+
 ```python
 import os
 os.system('jupyter nbconvert --to html python-ds.ipynb')
@@ -36,6 +37,9 @@ os.system('jupyter nbconvert --to html python-ds.ipynb')
 
 **Option 3: Export using a terminal command**  
 Open a terminal in your project folder and run:
+
+jupyter nbconvert --to html python-ds.ipynb
+pip install --upgrade jupyter
 ```
 jupyter nbconvert --to html python-ds.ipynb
 ```
@@ -44,6 +48,7 @@ jupyter nbconvert --to html python-ds.ipynb
 
 **Note:**  
 If you have issues creating the HTML file, try upgrading Jupyter:
+
 ```
 pip install --upgrade jupyter
 ```
